@@ -26,3 +26,7 @@ th, td {
     padding: 10px;
     text-align: left;
 }
+
+tbody tr:hover {
+    background-color: var(--gray);
+}
