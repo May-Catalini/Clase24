@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --tahiti-gold: #dc8004;   
+    --dark: #222120;  
+    --white: #ffffff; 
+    --gray: #666666;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--dark);
+}
+
+table {
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    color: white;
+    border-radius: 5px;
+    border: 2px solid var(--tahiti-gold);
+    padding: 10px;
+    text-align: left;
+}
